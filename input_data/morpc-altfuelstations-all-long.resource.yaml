@@ -1,5 +1,5 @@
 name: morpc-altfuelstations-juris-wide
-type: file
+type: table
 title: Alternative fuel stations opened by year for 15-county region, counties, and
   communities (long format)
 description: ''
@@ -8,6 +8,5 @@ path: morpc-altfuelstations-all-long.csv
 scheme: file
 format: csv
 mediatype: text/csv
-bytes: 972601
-hash: 3baae8a3bba83efc178104590cd6685b
+bytes: 772125
 schema: morpc-altfuelstations-all-long.schema.yaml

@@ -7312,6 +7312,7 @@ a.anchor-link {
                     processEnvironments: true
                 },
                 displayAlign: 'center',
+                messageStyle: 'none',
                 CommonHTML: {
                     linebreaks: {
                     automatic: true
@@ -7569,20 +7570,19 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [1]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [20]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
-<span class="kn">import</span> <span class="nn">frictionless</span>
-<span class="kn">import</span> <span class="nn">os</span>
-<span class="kn">import</span> <span class="nn">sys</span>
-<span class="kn">import</span> <span class="nn">json</span>
-<span class="kn">import</span> <span class="nn">datetime</span>
-<span class="kn">import</span> <span class="nn">textwrap</span>
-<span class="kn">import</span> <span class="nn">matplotlib</span>
-<span class="kn">from</span> <span class="nn">matplotlib</span> <span class="kn">import</span> <span class="n">pyplot</span> <span class="k">as</span> <span class="n">plt</span>
-<span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">normpath</span><span class="p">(</span><span class="s2">"../morpc-common"</span><span class="p">))</span>
-<span class="kn">import</span> <span class="nn">morpc</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">pandas</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">pd</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">frictionless</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">os</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">json</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">datetime</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">textwrap</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">matplotlib</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">matplotlib</span><span class="w"> </span><span class="kn">import</span> <span class="n">pyplot</span> <span class="k">as</span> <span class="n">plt</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">morpc</span>
 </pre></div>
 </div>
 </div>
@@ -7604,7 +7604,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [2]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [21]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">YEAR_RANGE</span> <span class="o">=</span> <span class="p">[</span><span class="mi">2000</span><span class="p">,</span> <span class="mi">2024</span><span class="p">]</span>
@@ -7629,7 +7629,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [3]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [22]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">INPUT_DIR</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">normpath</span><span class="p">(</span><span class="s2">"./input_data"</span><span class="p">)</span>
@@ -7680,7 +7680,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [4]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [23]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">inputDir</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">normpath</span><span class="p">(</span><span class="n">INPUT_DIR</span><span class="p">)</span>
@@ -7707,7 +7707,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [5]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [24]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">STATIONS_INPUT_TABLE_RESOURCE</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">normpath</span><span class="p">(</span><span class="s2">"../morpc-altfuelstations-summarize/output_data/morpc-altfuelstations-all-long.resource.yaml"</span><span class="p">)</span>
@@ -7724,7 +7724,7 @@ a.anchor-link {
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>Resource file: ..\morpc-altfuelstations-summarize\output_data\morpc-altfuelstations-all-long.resource.yaml
+<pre>Resource file: ../morpc-altfuelstations-summarize/output_data/morpc-altfuelstations-all-long.resource.yaml
 </pre>
 </div>
 </div>
@@ -7746,7 +7746,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [6]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [25]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">GEOS_LOOKUP_TABLE_RESOURCE</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">normpath</span><span class="p">(</span><span class="s2">"../morpc-geos-collect/output_data/morpc-geos-lookup.resource.yaml"</span><span class="p">)</span>
@@ -7763,7 +7763,7 @@ a.anchor-link {
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>Resource file: ..\morpc-geos-collect\output_data\morpc-geos-lookup.resource.yaml
+<pre>Resource file: ../morpc-geos-collect/output_data/morpc-geos-lookup.resource.yaml
 </pre>
 </div>
 </div>
@@ -7785,14 +7785,11 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [7]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [37]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">MEMBERS_DATA_PATH</span> <span class="o">=</span> <span class="s2">"../morpc-lookup/Member_List.xlsx"</span>
-<span class="n">MEMBERS_SHEET</span> <span class="o">=</span> <span class="s2">"Current Year Members"</span>
-<span class="n">MEMBERS_SCHEMA_PATH</span> <span class="o">=</span> <span class="s2">"../morpc-lookup/Member_List_schema.json"</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">"Data: </span><span class="si">{}</span><span class="s2">, sheet '</span><span class="si">{}</span><span class="s2">'"</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">MEMBERS_DATA_PATH</span><span class="p">,</span> <span class="n">MEMBERS_SHEET</span><span class="p">))</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">"Schema: </span><span class="si">{}</span><span class="s2">"</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">MEMBERS_SCHEMA_PATH</span><span class="p">))</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">MEMBERS_RESOURCE_PATH</span> <span class="o">=</span> <span class="s2">"../morpc-dues/input_data/morpc-membership-status-lookup.resource.yaml"</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"Resource file: </span><span class="si">{}</span><span class="s2">"</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">MEMBERS_RESOURCE_PATH</span><span class="p">))</span>
 </pre></div>
 </div>
 </div>
@@ -7805,8 +7802,7 @@ a.anchor-link {
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>Data: ../morpc-lookup/Member_List.xlsx, sheet 'Current Year Members'
-Schema: ../morpc-lookup/Member_List_schema.json
+<pre>Resource file: ../morpc-dues/input_data/morpc-membership-status-lookup.resource.yaml
 </pre>
 </div>
 </div>
@@ -7850,7 +7846,7 @@ Schema: ../morpc-lookup/Member_List_schema.json
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [8]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [27]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">outputDir</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">normpath</span><span class="p">(</span><span class="n">OUTPUT_DIR</span><span class="p">)</span>
@@ -7866,7 +7862,7 @@ Schema: ../morpc-lookup/Member_List_schema.json
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [9]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [28]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">chartDir</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">outputDir</span><span class="p">,</span> <span class="n">CHART_DIRNAME</span><span class="p">)</span>
@@ -7893,7 +7889,7 @@ Schema: ../morpc-lookup/Member_List_schema.json
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [10]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [29]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">ALTFUELSTATIONS_TABLE_FILENAME</span> <span class="o">=</span> <span class="s2">"altfuelstations_long.csv"</span>
@@ -7915,9 +7911,9 @@ Schema: ../morpc-lookup/Member_List_schema.json
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>Data: output_data\altfuelstations_long.csv
-Schema: output_data\altfuelstations_long.schema.yaml
-Resource file: output_data\altfuelstations_long.resource.yaml
+<pre>Data: output_data/altfuelstations_long.csv
+Schema: output_data/altfuelstations_long.schema.yaml
+Resource file: output_data/altfuelstations_long.resource.yaml
 </pre>
 </div>
 </div>
@@ -7945,51 +7941,16 @@ Resource file: output_data\altfuelstations_long.resource.yaml
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=ea238b49-e395-4837-9189-2c317e1b2381">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=ea238b49-e395-4837-9189-2c317e1b2381">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [11]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [30]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="p">(</span><span class="n">geosRaw</span><span class="p">,</span> <span class="n">geosRawResource</span><span class="p">,</span> <span class="n">geosRawSchema</span><span class="p">)</span> <span class="o">=</span> <span class="n">morpc</span><span class="o">.</span><span class="n">frictionless_load_data</span><span class="p">(</span><span class="n">GEOS_LOOKUP_TABLE_RESOURCE</span><span class="p">,</span> <span class="n">validate</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">archiveDir</span><span class="o">=</span><span class="n">inputDir</span><span class="p">)</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="p">(</span><span class="n">geosRaw</span><span class="p">,</span> <span class="n">geosRawResource</span><span class="p">,</span> <span class="n">geosRawSchema</span><span class="p">)</span> <span class="o">=</span> <span class="n">morpc</span><span class="o">.</span><span class="n">frictionless</span><span class="o">.</span><span class="n">load_data</span><span class="p">(</span><span class="n">GEOS_LOOKUP_TABLE_RESOURCE</span><span class="p">,</span> <span class="n">archiveDir</span><span class="o">=</span><span class="n">inputDir</span><span class="p">)</span>
 </pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>morpc.load_frictionless_data | INFO | Loading Frictionless Resource file at location ..\morpc-geos-collect\output_data\morpc-geos-lookup.resource.yaml
-morpc.load_frictionless_data | INFO | Copying data, resource file, and schema to directory input_data
-morpc.load_frictionless_data | INFO | --&gt; Data file: input_data\morpc-geos-lookup.csv
-morpc.load_frictionless_data | INFO | --&gt; Resource file: input_data\morpc-geos-lookup.resource.yaml
-morpc.load_frictionless_data | INFO | --&gt; Schema file: input_data\morpc-geos-lookup.schema.yaml
-morpc.load_frictionless_data | INFO | Validating resource including data and schema.
-morpc.frictionless_validate_resource | INFO | Validating resource on disk (including data and schema). This may take some time.
-morpc.frictionless_validate_resource | INFO | Resource is valid
-morpc.load_frictionless_data | INFO | Loading data.
-frictionless_cast_field_types | INFO | Casting field GEOIDFQ as type string.
-frictionless_cast_field_types | INFO | Casting field GEOID as type string.
-frictionless_cast_field_types | INFO | Casting field SUMLEVEL as type string.
-frictionless_cast_field_types | INFO | Casting field GEOTYPE as type string.
-frictionless_cast_field_types | INFO | Casting field NAME as type string.
-frictionless_cast_field_types | INFO | Casting field SOURCE as type string.
-frictionless_cast_field_types | INFO | Casting field STATEFP as type string.
-frictionless_cast_field_types | INFO | Casting field COUNTYFP as type string.
-frictionless_cast_field_types | INFO | Casting field COUSUBFP as type string.
-frictionless_cast_field_types | INFO | Casting field PLACEFP as type string.
-frictionless_cast_field_types | INFO | Casting field TRACTCE as type string.
-frictionless_cast_field_types | INFO | Casting field CLASSFP as type string.
-frictionless_cast_field_types | INFO | Casting field MUNITYPE as type string.
-frictionless_cast_field_types | INFO | Casting field PLACECOMBO as type string.
-</pre>
 </div>
 </div>
 </div>
@@ -7999,7 +7960,7 @@ frictionless_cast_field_types | INFO | Casting field PLACECOMBO as type string.
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [12]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [31]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">geosRaw</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
@@ -8013,7 +7974,7 @@ frictionless_cast_field_types | INFO | Casting field PLACECOMBO as type string.
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[12]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[31]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -8147,7 +8108,7 @@ frictionless_cast_field_types | INFO | Casting field PLACECOMBO as type string.
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [13]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [32]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">geos</span> <span class="o">=</span> <span class="n">geosRaw</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
@@ -8167,43 +8128,16 @@ frictionless_cast_field_types | INFO | Casting field PLACECOMBO as type string.
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=2d947ec7-5338-47ef-8a66-418db1472a88">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=2d947ec7-5338-47ef-8a66-418db1472a88">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [14]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [33]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="p">(</span><span class="n">stationsRaw</span><span class="p">,</span> <span class="n">stationsRawResource</span><span class="p">,</span> <span class="n">stationsRawSchema</span><span class="p">)</span> <span class="o">=</span> <span class="n">morpc</span><span class="o">.</span><span class="n">frictionless_load_data</span><span class="p">(</span><span class="n">STATIONS_INPUT_TABLE_RESOURCE</span><span class="p">,</span> <span class="n">validate</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">archiveDir</span><span class="o">=</span><span class="n">inputDir</span><span class="p">)</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="p">(</span><span class="n">stationsRaw</span><span class="p">,</span> <span class="n">stationsRawResource</span><span class="p">,</span> <span class="n">stationsRawSchema</span><span class="p">)</span> <span class="o">=</span> <span class="n">morpc</span><span class="o">.</span><span class="n">frictionless</span><span class="o">.</span><span class="n">load_data</span><span class="p">(</span><span class="n">STATIONS_INPUT_TABLE_RESOURCE</span><span class="p">,</span> <span class="n">archiveDir</span><span class="o">=</span><span class="n">inputDir</span><span class="p">)</span>
 </pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>morpc.load_frictionless_data | INFO | Loading Frictionless Resource file at location ..\morpc-altfuelstations-summarize\output_data\morpc-altfuelstations-all-long.resource.yaml
-morpc.load_frictionless_data | INFO | Copying data, resource file, and schema to directory input_data
-morpc.load_frictionless_data | INFO | --&gt; Data file: input_data\morpc-altfuelstations-all-long.csv
-morpc.load_frictionless_data | INFO | --&gt; Resource file: input_data\morpc-altfuelstations-all-long.resource.yaml
-morpc.load_frictionless_data | INFO | --&gt; Schema file: input_data\morpc-altfuelstations-all-long.schema.yaml
-morpc.load_frictionless_data | INFO | Validating resource including data and schema.
-morpc.frictionless_validate_resource | INFO | Validating resource on disk (including data and schema). This may take some time.
-morpc.frictionless_validate_resource | INFO | Resource is valid
-morpc.load_frictionless_data | INFO | Loading data.
-frictionless_cast_field_types | INFO | Casting field NAME as type string.
-frictionless_cast_field_types | INFO | Casting field GEOIDFQ as type string.
-frictionless_cast_field_types | INFO | Casting field SUMLEVEL as type string.
-frictionless_cast_field_types | INFO | Casting field open_year as type integer.
-frictionless_cast_field_types | INFO | Casting field fuel_type_code as type string.
-frictionless_cast_field_types | INFO | Casting field count as type integer.
-</pre>
 </div>
 </div>
 </div>
@@ -8213,7 +8147,7 @@ frictionless_cast_field_types | INFO | Casting field count as type integer.
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [15]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [34]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">stationsRaw</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
@@ -8227,7 +8161,7 @@ frictionless_cast_field_types | INFO | Casting field count as type integer.
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[15]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[34]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -8249,7 +8183,6 @@ frictionless_cast_field_types | INFO | Casting field count as type integer.
 <th></th>
 <th>NAME</th>
 <th>GEOIDFQ</th>
-<th>SUMLEVEL</th>
 <th>open_year</th>
 <th>fuel_type_code</th>
 <th>count</th>
@@ -8260,46 +8193,41 @@ frictionless_cast_field_types | INFO | Casting field count as type integer.
 <th>0</th>
 <td>15-County Region</td>
 <td>M010000US001</td>
-<td>M01</td>
-<td>1999</td>
+<td>1999.0</td>
 <td>BD</td>
-<td>0</td>
+<td>0.0</td>
 </tr>
 <tr>
 <th>1</th>
 <td>15-County Region</td>
 <td>M010000US001</td>
-<td>M01</td>
-<td>2000</td>
+<td>2000.0</td>
 <td>BD</td>
-<td>0</td>
+<td>0.0</td>
 </tr>
 <tr>
 <th>2</th>
 <td>15-County Region</td>
 <td>M010000US001</td>
-<td>M01</td>
-<td>2001</td>
+<td>2001.0</td>
 <td>BD</td>
-<td>0</td>
+<td>0.0</td>
 </tr>
 <tr>
 <th>3</th>
 <td>15-County Region</td>
 <td>M010000US001</td>
-<td>M01</td>
-<td>2002</td>
+<td>2002.0</td>
 <td>BD</td>
-<td>0</td>
+<td>0.0</td>
 </tr>
 <tr>
 <th>4</th>
 <td>15-County Region</td>
 <td>M010000US001</td>
-<td>M01</td>
-<td>2003</td>
+<td>2003.0</td>
 <td>BD</td>
-<td>0</td>
+<td>0.0</td>
 </tr>
 </tbody>
 </table>
@@ -8346,10 +8274,10 @@ frictionless_cast_field_types | INFO | Casting field count as type integer.
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [16]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [39]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">membersRaw</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_excel</span><span class="p">(</span><span class="n">MEMBERS_DATA_PATH</span><span class="p">,</span> <span class="n">sheet_name</span><span class="o">=</span><span class="n">MEMBERS_SHEET</span><span class="p">)</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">membersRaw</span><span class="p">,</span> <span class="n">memberResource</span><span class="p">,</span> <span class="n">membersSchema</span> <span class="o">=</span> <span class="n">morpc</span><span class="o">.</span><span class="n">frictionless</span><span class="o">.</span><span class="n">load_data</span><span class="p">(</span><span class="n">MEMBERS_RESOURCE_PATH</span><span class="p">)</span>
 <span class="n">membersRaw</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </pre></div>
 </div>
@@ -8360,8 +8288,16 @@ frictionless_cast_field_types | INFO | Casting field count as type integer.
 <div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>morpc.frictionless.cast_field_types | WARNING | Field MEMBERINDIV is string type. Will interpret using truth values specified in schema (or Frictionless defaults). Nulls will be interpreted as False. To change this, set nullBoolValue.
+morpc.frictionless.cast_field_types | WARNING | Field MEMBERCOUNTY is string type. Will interpret using truth values specified in schema (or Frictionless defaults). Nulls will be interpreted as False. To change this, set nullBoolValue.
+</pre>
+</div>
+</div>
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[16]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[39]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -8381,187 +8317,81 @@ frictionless_cast_field_types | INFO | Casting field count as type integer.
 <thead>
 <tr style="text-align: right;">
 <th></th>
-<th>PLACECOMBO</th>
-<th>PlaceLink</th>
-<th>Local Member</th>
-<th>County Member</th>
-<th>Contains Any Member</th>
-<th>MPO Member</th>
-<th>MPO County</th>
-<th>CORPO County</th>
-<th>Model Area</th>
-<th>FCPH Service Area</th>
-<th>County</th>
-<th>Place Name</th>
-<th>GovType</th>
-<th>GEOID</th>
+<th>GEOIDFQ</th>
+<th>YEAR</th>
+<th>COUNTY</th>
+<th>NAME</th>
+<th>MUNITYPE</th>
+<th>MEMBERCLASSINDIV</th>
+<th>MEMBERCLASSCOUNTY</th>
+<th>MEMBERINDIV</th>
+<th>MEMBERCOUNTY</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <th>0</th>
-<td>DELAWARE_ASHLEY_VILLAGE</td>
-<td>4.0</td>
-<td>0.0</td>
-<td>1</td>
-<td>True</td>
-<td>1</td>
-<td>1</td>
-<td>0</td>
-<td>1</td>
-<td>0</td>
+<td>M110000US3902582041</td>
+<td>2023</td>
 <td>Delaware</td>
 <td>Ashley</td>
 <td>Village</td>
-<td>1550000US3902582041</td>
+<td>MPO</td>
+<td>MPO</td>
+<td>False</td>
+<td>True</td>
 </tr>
 <tr>
 <th>1</th>
-<td>DELAWARE_BERKSHIRE_TOWNSHIP</td>
-<td>113.0</td>
-<td>0.0</td>
-<td>1</td>
-<td>True</td>
-<td>1</td>
-<td>1</td>
-<td>0</td>
-<td>1</td>
-<td>0</td>
+<td>M110000US390410577499999</td>
+<td>2023</td>
 <td>Delaware</td>
 <td>Berkshire</td>
 <td>Township</td>
-<td>0700000US390410577499999</td>
+<td>MPO</td>
+<td>MPO</td>
+<td>False</td>
+<td>True</td>
 </tr>
 <tr>
 <th>2</th>
-<td>DELAWARE_BERLIN_TOWNSHIP</td>
-<td>114.0</td>
-<td>0.0</td>
-<td>1</td>
-<td>True</td>
-<td>1</td>
-<td>1</td>
-<td>0</td>
-<td>1</td>
-<td>0</td>
+<td>M110000US390410578899999</td>
+<td>2023</td>
 <td>Delaware</td>
 <td>Berlin</td>
 <td>Township</td>
-<td>0700000US390410578899999</td>
+<td>MPO</td>
+<td>MPO</td>
+<td>False</td>
+<td>True</td>
 </tr>
 <tr>
 <th>3</th>
-<td>DELAWARE_BROWN_TOWNSHIP</td>
-<td>115.0</td>
-<td>0.0</td>
-<td>1</td>
-<td>True</td>
-<td>1</td>
-<td>1</td>
-<td>0</td>
-<td>1</td>
-<td>0</td>
+<td>M110000US390410942899999</td>
+<td>2023</td>
 <td>Delaware</td>
 <td>Brown</td>
 <td>Township</td>
-<td>0700000US390410942899999</td>
+<td>MPO</td>
+<td>MPO</td>
+<td>False</td>
+<td>True</td>
 </tr>
 <tr>
 <th>4</th>
-<td>DELAWARE_COLUMBUS_CITY</td>
-<td>22.0</td>
-<td>1.0</td>
-<td>1</td>
-<td>True</td>
-<td>1</td>
-<td>1</td>
-<td>0</td>
-<td>1</td>
-<td>0</td>
+<td>M110000US3918000041</td>
+<td>2023</td>
 <td>Delaware</td>
 <td>Columbus</td>
 <td>City</td>
-<td>1550000US3918000041</td>
+<td>MPO</td>
+<td>MPO</td>
+<td>True</td>
+<td>True</td>
 </tr>
 </tbody>
 </table>
 </div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=19c51f5c-c82d-453c-8363-0be3e7927514">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>Load the schema.</p>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=7add8fc6-0436-4018-b364-19e4231a9a5d">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [17]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">membersSchema</span> <span class="o">=</span> <span class="n">morpc</span><span class="o">.</span><span class="n">load_avro_schema</span><span class="p">(</span><span class="n">MEMBERS_SCHEMA_PATH</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=6101ed3a-7c54-453f-871f-3288acab01d4">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>Verify that the fields are all the expected types.</p>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=8b0906af-639d-4ab6-8cda-c61c272705f5">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [18]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">members</span> <span class="o">=</span> <span class="n">morpc</span><span class="o">.</span><span class="n">cast_field_types</span><span class="p">(</span><span class="n">membersRaw</span><span class="p">,</span> <span class="n">membersSchema</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>Casting field PLACECOMBO as type string.
-Casting field PlaceLink as type string.
-Casting field Local Member as type boolean.
-Casting field County Member as type boolean.
-Casting field Contains Any Member as type boolean.
-Casting field MPO Member as type boolean.
-Casting field MPO County as type boolean.
-Casting field CORPO County as type boolean.
-Casting field Model Area as type boolean.
-Casting field FCPH Service Area as type boolean.
-Casting field County as type string.
-Casting field Place Name as type string.
-Casting field GovType as type string.
-Casting field GEOID as type string.
-</pre>
 </div>
 </div>
 </div>
@@ -8582,10 +8412,10 @@ Casting field GEOID as type string.
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [19]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [41]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">members</span> <span class="o">=</span> <span class="n">members</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">members</span><span class="p">[</span><span class="s2">"Local Member"</span><span class="p">]</span> <span class="o">==</span> <span class="kc">True</span><span class="p">]</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">members</span> <span class="o">=</span> <span class="n">membersRaw</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">membersRaw</span><span class="p">[</span><span class="s2">"MEMBERINDIV"</span><span class="p">]</span> <span class="o">==</span> <span class="kc">True</span><span class="p">]</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
 </pre></div>
 </div>
 </div>
@@ -8607,19 +8437,15 @@ Casting field GEOID as type string.
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [20]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [43]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">members</span><span class="p">[</span><span class="s2">"PLACEFP"</span><span class="p">]</span> <span class="o">=</span> <span class="n">members</span><span class="p">[</span><span class="s2">"GEOID"</span><span class="p">]</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span><span class="n">x</span><span class="p">[</span><span class="mi">11</span><span class="p">:</span><span class="mi">16</span><span class="p">])</span>
-<span class="n">members</span><span class="p">[</span><span class="s2">"COUSUBFP"</span><span class="p">]</span> <span class="o">=</span> <span class="n">members</span><span class="p">[</span><span class="s2">"GEOID"</span><span class="p">]</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span><span class="n">x</span><span class="p">[</span><span class="mi">14</span><span class="p">:</span><span class="mi">19</span><span class="p">])</span>
-<span class="n">members</span><span class="p">[</span><span class="s2">"COUNTYID"</span><span class="p">]</span> <span class="o">=</span> <span class="n">members</span><span class="p">[</span><span class="s2">"County"</span><span class="p">]</span><span class="o">.</span><span class="n">map</span><span class="p">(</span><span class="n">morpc</span><span class="o">.</span><span class="n">CONST_COUNTY_NAME_TO_ID</span><span class="p">)</span>
-<span class="n">members</span><span class="p">[</span><span class="s2">"GEOIDFQ"</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span>
-<span class="n">temp</span> <span class="o">=</span> <span class="n">members</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">members</span><span class="p">[</span><span class="s2">"GovType"</span><span class="p">]</span> <span class="o">==</span> <span class="s2">"Township"</span><span class="p">]</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
-<span class="n">temp</span><span class="p">[</span><span class="s2">"GEOIDFQ"</span><span class="p">]</span> <span class="o">=</span> <span class="n">temp</span><span class="p">[</span><span class="s2">"GEOID"</span><span class="p">]</span>
-<span class="n">members</span><span class="o">.</span><span class="n">update</span><span class="p">(</span><span class="n">temp</span><span class="p">)</span>
-<span class="n">temp</span> <span class="o">=</span> <span class="n">members</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">members</span><span class="p">[</span><span class="s2">"GovType"</span><span class="p">]</span> <span class="o">!=</span> <span class="s2">"Township"</span><span class="p">]</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
-<span class="n">temp</span><span class="p">[</span><span class="s2">"GEOIDFQ"</span><span class="p">]</span> <span class="o">=</span> <span class="s2">"1600000US39"</span> <span class="o">+</span> <span class="n">temp</span><span class="p">[</span><span class="s2">"PLACEFP"</span><span class="p">]</span>
-<span class="n">members</span><span class="o">.</span><span class="n">update</span><span class="p">(</span><span class="n">temp</span><span class="p">)</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">members</span> <span class="o">=</span> <span class="n">members</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
+<span class="n">members</span> <span class="o">=</span> <span class="n">members</span><span class="o">.</span><span class="n">reset_index</span><span class="p">()</span>
+<span class="n">members</span> <span class="o">=</span> <span class="n">members</span><span class="o">.</span><span class="n">merge</span><span class="p">(</span><span class="n">geos</span><span class="p">[[</span><span class="s1">'GEOIDFQ'</span><span class="p">,</span> <span class="s1">'GEOID'</span><span class="p">,</span> <span class="s1">'PLACEFP'</span><span class="p">]],</span> <span class="n">on</span><span class="o">=</span><span class="s2">"GEOIDFQ"</span><span class="p">,</span> <span class="n">how</span><span class="o">=</span><span class="s2">"left"</span><span class="p">)</span>
+<span class="n">members</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">members</span><span class="p">[</span><span class="s2">"MUNITYPE"</span><span class="p">]</span> <span class="o">==</span> <span class="s2">"Township"</span><span class="p">,</span> <span class="s2">"GEOIDFQ"</span><span class="p">]</span> <span class="o">=</span> <span class="s2">"M100000US"</span> <span class="o">+</span> <span class="n">members</span><span class="p">[</span><span class="s2">"GEOID"</span><span class="p">]</span>
+<span class="n">members</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">members</span><span class="p">[</span><span class="s2">"MUNITYPE"</span><span class="p">]</span> <span class="o">!=</span> <span class="s2">"Township"</span><span class="p">,</span> <span class="s2">"GEOIDFQ"</span><span class="p">]</span> <span class="o">=</span> <span class="s2">"M100000US39"</span> <span class="o">+</span> <span class="n">members</span><span class="p">[</span><span class="s2">"PLACEFP"</span><span class="p">]</span>
+<span class="n">members</span> <span class="o">=</span> <span class="n">members</span><span class="o">.</span><span class="n">groupby</span><span class="p">([</span><span class="s2">"GEOIDFQ"</span><span class="p">,</span><span class="s2">"YEAR"</span><span class="p">])</span><span class="o">.</span><span class="n">first</span><span class="p">()</span><span class="o">.</span><span class="n">reset_index</span><span class="p">()</span>
 </pre></div>
 </div>
 </div>
@@ -8641,7 +8467,7 @@ Casting field GEOID as type string.
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [21]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [44]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">memberList</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">members</span><span class="p">[</span><span class="s2">"GEOIDFQ"</span><span class="p">]</span><span class="o">.</span><span class="n">unique</span><span class="p">())</span>
@@ -8666,7 +8492,7 @@ Casting field GEOID as type string.
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [22]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [45]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">memberList</span> <span class="o">+=</span> <span class="p">[</span><span class="s2">"0500000US</span><span class="si">{}</span><span class="s2">"</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">morpc</span><span class="o">.</span><span class="n">CONST_COUNTY_NAME_TO_ID</span><span class="p">[</span><span class="n">x</span><span class="p">])</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">morpc</span><span class="o">.</span><span class="n">CONST_REGIONS</span><span class="p">[</span><span class="s1">'REGION15'</span><span class="p">]]</span>
@@ -8691,7 +8517,7 @@ Casting field GEOID as type string.
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [23]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [46]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">memberList</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s2">"M010000US001"</span><span class="p">)</span>
@@ -8716,7 +8542,7 @@ Casting field GEOID as type string.
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [24]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [47]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">stations</span> <span class="o">=</span> <span class="n">stationsRaw</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">stationsRaw</span><span class="p">[</span><span class="s2">"open_year"</span><span class="p">]</span><span class="o">.</span><span class="n">isin</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="n">YEAR_RANGE</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">YEAR_RANGE</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">+</span><span class="mi">1</span><span class="p">))]</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
@@ -8732,7 +8558,7 @@ Casting field GEOID as type string.
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [25]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [48]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">stations</span> <span class="o">=</span> <span class="n">stations</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="s2">"NAME"</span><span class="p">)</span><span class="o">.</span><span class="n">merge</span><span class="p">(</span><span class="n">geos</span><span class="p">[[</span><span class="s2">"GEOIDFQ"</span><span class="p">,</span><span class="s2">"COUNTYFP"</span><span class="p">,</span><span class="s2">"NAME"</span><span class="p">]],</span> <span class="n">on</span><span class="o">=</span><span class="s2">"GEOIDFQ"</span><span class="p">)</span>
@@ -8748,7 +8574,7 @@ Casting field GEOID as type string.
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [26]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [49]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">temp</span> <span class="o">=</span> <span class="n">stations</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">stations</span><span class="p">[</span><span class="s2">"SUMLEVEL"</span><span class="p">]</span> <span class="o">==</span> <span class="s2">"070"</span><span class="p">]</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
@@ -8764,7 +8590,7 @@ Casting field GEOID as type string.
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [27]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [50]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">temp</span> <span class="o">=</span> <span class="n">stations</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">stations</span><span class="p">[</span><span class="s2">"SUMLEVEL"</span><span class="p">]</span> <span class="o">==</span> <span class="s2">"050"</span><span class="p">]</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
@@ -8780,7 +8606,7 @@ Casting field GEOID as type string.
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [28]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [51]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">stations</span> <span class="o">=</span> <span class="n">stations</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="p">{</span>
@@ -8798,7 +8624,7 @@ Casting field GEOID as type string.
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [29]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [52]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">stations</span><span class="p">[</span><span class="s2">"Fuel type"</span><span class="p">]</span> <span class="o">=</span> <span class="n">stations</span><span class="p">[</span><span class="s2">"Fuel type"</span><span class="p">]</span><span class="o">.</span><span class="n">map</span><span class="p">({</span>
@@ -8820,7 +8646,7 @@ Casting field GEOID as type string.
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [30]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [53]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">stations</span> <span class="o">=</span> <span class="n">stations</span><span class="o">.</span><span class="n">filter</span><span class="p">(</span><span class="n">items</span><span class="o">=</span><span class="p">[</span><span class="s2">"GEOIDFQ"</span><span class="p">,</span><span class="s2">"NAME"</span><span class="p">,</span><span class="s2">"GEOTYPE"</span><span class="p">,</span><span class="s2">"Open year"</span><span class="p">,</span><span class="s2">"Fuel type"</span><span class="p">,</span><span class="s2">"count"</span><span class="p">],</span> <span class="n">axis</span><span class="o">=</span><span class="s2">"columns"</span><span class="p">)</span>
@@ -8829,157 +8655,16 @@ Casting field GEOID as type string.
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=50b5413b-b772-4781-bb0d-e8cb2335944b">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=50b5413b-b772-4781-bb0d-e8cb2335944b">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [31]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [59]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">stations</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">stations</span> <span class="o">=</span> <span class="n">morpc</span><span class="o">.</span><span class="n">frictionless</span><span class="o">.</span><span class="n">cast_field_types</span><span class="p">(</span><span class="n">stations</span><span class="p">,</span> <span class="n">frictionless</span><span class="o">.</span><span class="n">Schema</span><span class="p">(</span><span class="s1">'./output_data/altfuelstations_long.schema.yaml'</span><span class="p">))</span>
 </pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[31]:</div>
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
-<div>
-<style scoped="">
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-<thead>
-<tr style="text-align: right;">
-<th></th>
-<th>GEOIDFQ</th>
-<th>NAME</th>
-<th>GEOTYPE</th>
-<th>Open year</th>
-<th>Fuel type</th>
-<th>count</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<th>0</th>
-<td>M010000US001</td>
-<td>15-County Region</td>
-<td>REGION15</td>
-<td>2000</td>
-<td>Biodiesel</td>
-<td>0</td>
-</tr>
-<tr>
-<th>1</th>
-<td>M010000US001</td>
-<td>15-County Region</td>
-<td>REGION15</td>
-<td>2001</td>
-<td>Biodiesel</td>
-<td>0</td>
-</tr>
-<tr>
-<th>2</th>
-<td>M010000US001</td>
-<td>15-County Region</td>
-<td>REGION15</td>
-<td>2002</td>
-<td>Biodiesel</td>
-<td>0</td>
-</tr>
-<tr>
-<th>3</th>
-<td>M010000US001</td>
-<td>15-County Region</td>
-<td>REGION15</td>
-<td>2003</td>
-<td>Biodiesel</td>
-<td>0</td>
-</tr>
-<tr>
-<th>4</th>
-<td>M010000US001</td>
-<td>15-County Region</td>
-<td>REGION15</td>
-<td>2004</td>
-<td>Biodiesel</td>
-<td>0</td>
-</tr>
-<tr>
-<th>...</th>
-<td>...</td>
-<td>...</td>
-<td>...</td>
-<td>...</td>
-<td>...</td>
-<td>...</td>
-</tr>
-<tr>
-<th>17670</th>
-<td>1600000US3986604</td>
-<td>Worthington</td>
-<td>PLACE</td>
-<td>2020</td>
-<td>Propane (LPG)</td>
-<td>0</td>
-</tr>
-<tr>
-<th>17671</th>
-<td>1600000US3986604</td>
-<td>Worthington</td>
-<td>PLACE</td>
-<td>2021</td>
-<td>Propane (LPG)</td>
-<td>0</td>
-</tr>
-<tr>
-<th>17672</th>
-<td>1600000US3986604</td>
-<td>Worthington</td>
-<td>PLACE</td>
-<td>2022</td>
-<td>Propane (LPG)</td>
-<td>0</td>
-</tr>
-<tr>
-<th>17673</th>
-<td>1600000US3986604</td>
-<td>Worthington</td>
-<td>PLACE</td>
-<td>2023</td>
-<td>Propane (LPG)</td>
-<td>0</td>
-</tr>
-<tr>
-<th>17674</th>
-<td>1600000US3986604</td>
-<td>Worthington</td>
-<td>PLACE</td>
-<td>2024</td>
-<td>Propane (LPG)</td>
-<td>0</td>
-</tr>
-</tbody>
-</table>
-<p>17675 rows × 6 columns</p>
-</div>
 </div>
 </div>
 </div>
@@ -9000,7 +8685,7 @@ Casting field GEOID as type string.
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [32]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [60]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">stations</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="n">ALTFUELSTATIONS_TABLE_PATH</span><span class="p">,</span> <span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
@@ -9020,15 +8705,15 @@ Casting field GEOID as type string.
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=6a8c0cfb-5fae-447a-8d79-3ef8414eadd4">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=6a8c0cfb-5fae-447a-8d79-3ef8414eadd4">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [33]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [61]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">stationsResource</span> <span class="o">=</span> <span class="n">morpc</span><span class="o">.</span><span class="n">frictionless_create_resource</span><span class="p">(</span><span class="n">ALTFUELSTATIONS_TABLE_FILENAME</span><span class="p">,</span> 
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">stationsResource</span> <span class="o">=</span> <span class="n">morpc</span><span class="o">.</span><span class="n">frictionless</span><span class="o">.</span><span class="n">create_resource</span><span class="p">(</span><span class="n">ALTFUELSTATIONS_TABLE_FILENAME</span><span class="p">,</span> 
     <span class="n">resourcePath</span><span class="o">=</span><span class="n">ALTFUELSTATIONS_TABLE_RESOURCE_PATH</span><span class="p">,</span>
     <span class="n">title</span><span class="o">=</span><span class="s2">"MORPC Insights | Alternative Fuel Stations by Year"</span><span class="p">,</span> 
     <span class="n">name</span><span class="o">=</span><span class="s2">"altfuelstations"</span><span class="p">,</span> 
@@ -9037,24 +8722,6 @@ Casting field GEOID as type string.
     <span class="n">validate</span><span class="o">=</span><span class="kc">True</span>
 <span class="p">)</span>
 </pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>morpc.frictionless_create_resource | INFO | Format not specified. Using format derived from data file extension: csv
-morpc.frictionless_create_resource | INFO | Schema path not specified. Using path derived from data file path: altfuelstations_long.schema.yaml
-morpc.frictionless_create_resource | INFO | Writing Frictionless Resource file to output_data\altfuelstations_long.resource.yaml
-morpc.frictionless_create_resource | INFO | Validating resource on disk.
-morpc.frictionless_validate_resource | INFO | Validating resource on disk (including data and schema). This may take some time.
-morpc.frictionless_validate_resource | INFO | Resource is valid
-</pre>
 </div>
 </div>
 </div>
@@ -9075,7 +8742,7 @@ morpc.frictionless_validate_resource | INFO | Resource is valid
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [35]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [62]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">matplotlib</span> agg
@@ -9229,7 +8896,7 @@ morpc.frictionless_validate_resource | INFO | Resource is valid
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [48]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [63]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">columnNames</span><span class="o">=</span><span class="p">[</span><span class="s2">"TileID"</span><span class="p">,</span><span class="s2">"TilesetID"</span><span class="p">,</span><span class="s2">"GeographyType"</span><span class="p">,</span><span class="s2">"GeographyName"</span><span class="p">,</span><span class="s2">"Category"</span><span class="p">,</span><span class="s2">"Headline"</span><span class="p">,</span><span class="s2">"Commentary"</span><span class="p">,</span><span class="s2">"ThumbnailURL"</span><span class="p">,</span><span class="s2">"Contributor"</span><span class="p">,</span><span class="s2">"Vintage"</span><span class="p">,</span><span class="s2">"UpdateInterval"</span><span class="p">,</span><span class="s2">"ShareURL"</span><span class="p">,</span><span class="s2">"DataProductURL"</span><span class="p">,</span><span class="s2">"MoreInformationURL"</span><span class="p">]</span>
@@ -9254,7 +8921,7 @@ morpc.frictionless_validate_resource | INFO | Resource is valid
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [49]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [64]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">catalog</span> <span class="o">=</span> <span class="n">stations</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">stations</span><span class="p">[</span><span class="s2">"GEOIDFQ"</span><span class="p">]</span><span class="o">.</span><span class="n">isin</span><span class="p">(</span><span class="n">platformIncludeList</span><span class="p">)]</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
@@ -9279,7 +8946,7 @@ morpc.frictionless_validate_resource | INFO | Resource is valid
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [50]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [65]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">catalog</span> <span class="o">=</span> <span class="n">catalog</span><span class="o">.</span><span class="n">filter</span><span class="p">(</span><span class="n">items</span><span class="o">=</span><span class="p">[</span><span class="s2">"GEOIDFQ"</span><span class="p">,</span><span class="s2">"NAME"</span><span class="p">,</span><span class="s2">"GEOTYPE"</span><span class="p">],</span> <span class="n">axis</span><span class="o">=</span><span class="s2">"columns"</span><span class="p">)</span> \
@@ -9307,7 +8974,7 @@ morpc.frictionless_validate_resource | INFO | Resource is valid
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [51]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [66]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">catalog</span><span class="p">[</span><span class="s2">"GeographyType"</span><span class="p">]</span> <span class="o">=</span> <span class="n">catalog</span><span class="p">[</span><span class="s2">"GeographyType"</span><span class="p">]</span><span class="o">.</span><span class="n">map</span><span class="p">({</span>
@@ -9337,7 +9004,7 @@ morpc.frictionless_validate_resource | INFO | Resource is valid
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [52]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [67]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">catalog</span><span class="p">[</span><span class="s2">"TileID"</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span>
@@ -9366,7 +9033,7 @@ morpc.frictionless_validate_resource | INFO | Resource is valid
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [53]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [68]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">catalog</span><span class="p">[</span><span class="s2">"ThumbnailURL"</span><span class="p">]</span> <span class="o">=</span> <span class="n">catalog</span><span class="p">[</span><span class="s2">"GEOIDFQ"</span><span class="p">]</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="k">lambda</span> <span class="n">geoid</span><span class="p">:</span><span class="s2">"https://raw.githubusercontent.com/morpc-insights/altfuelstations/refs/heads/main/output_data/charts/</span><span class="si">{}</span><span class="s2">.svg"</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">geoid</span><span class="p">))</span>
@@ -9391,7 +9058,7 @@ morpc.frictionless_validate_resource | INFO | Resource is valid
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [54]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [69]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">catalog</span><span class="p">[</span><span class="s2">"Contributor"</span><span class="p">]</span> <span class="o">=</span> <span class="s2">"Mid-Ohio Regional Planning Commission"</span>
@@ -9419,7 +9086,7 @@ morpc.frictionless_validate_resource | INFO | Resource is valid
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [55]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [70]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">catalog</span><span class="p">[</span><span class="s2">"DataProductURL"</span><span class="p">]</span> <span class="o">=</span> <span class="n">catalog</span><span class="p">[</span><span class="s2">"GEOIDFQ"</span><span class="p">]</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="k">lambda</span> <span class="n">geoid</span><span class="p">:</span><span class="s2">"https://www.arcgis.com/apps/dashboards/87fd6a0b569b430c9e4c6e7fa4fbd4c5#geoid=</span><span class="si">{}</span><span class="s2">"</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">geoid</span><span class="p">))</span>
@@ -9444,7 +9111,7 @@ morpc.frictionless_validate_resource | INFO | Resource is valid
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [56]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [71]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">catalog</span><span class="p">[</span><span class="s2">"MoreInformationURL"</span><span class="p">]</span> <span class="o">=</span> <span class="s2">"https://morpc1-my.sharepoint.com/:w:/g/personal/aporr_morpc_org/EVLU02aZ3JlPp4KkTWiDqTYBHuow3DjvxECK2rHyq0Am8w?e=giTobc"</span>
@@ -9469,7 +9136,7 @@ morpc.frictionless_validate_resource | INFO | Resource is valid
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [57]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [72]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">catalog</span> <span class="o">=</span> <span class="n">catalog</span><span class="o">.</span><span class="n">filter</span><span class="p">(</span><span class="n">items</span><span class="o">=</span><span class="n">columnNames</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="s2">"columns"</span><span class="p">)</span>
@@ -9494,7 +9161,7 @@ morpc.frictionless_validate_resource | INFO | Resource is valid
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [58]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [73]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">catalog</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
@@ -9508,7 +9175,7 @@ morpc.frictionless_validate_resource | INFO | Resource is valid
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[58]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[73]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
 <div>
 <style scoped="">
@@ -9556,7 +9223,7 @@ morpc.frictionless_validate_resource | INFO | Resource is valid
 <td>TBD</td>
 <td>https://raw.githubusercontent.com/morpc-insigh...</td>
 <td>Mid-Ohio Regional Planning Commission</td>
-<td>2025</td>
+<td>2026</td>
 <td>annually</td>
 <td>None</td>
 <td>https://www.arcgis.com/apps/dashboards/87fd6a0...</td>
@@ -9573,7 +9240,7 @@ morpc.frictionless_validate_resource | INFO | Resource is valid
 <td>TBD</td>
 <td>https://raw.githubusercontent.com/morpc-insigh...</td>
 <td>Mid-Ohio Regional Planning Commission</td>
-<td>2025</td>
+<td>2026</td>
 <td>annually</td>
 <td>None</td>
 <td>https://www.arcgis.com/apps/dashboards/87fd6a0...</td>
@@ -9590,7 +9257,7 @@ morpc.frictionless_validate_resource | INFO | Resource is valid
 <td>TBD</td>
 <td>https://raw.githubusercontent.com/morpc-insigh...</td>
 <td>Mid-Ohio Regional Planning Commission</td>
-<td>2025</td>
+<td>2026</td>
 <td>annually</td>
 <td>None</td>
 <td>https://www.arcgis.com/apps/dashboards/87fd6a0...</td>
@@ -9607,7 +9274,7 @@ morpc.frictionless_validate_resource | INFO | Resource is valid
 <td>TBD</td>
 <td>https://raw.githubusercontent.com/morpc-insigh...</td>
 <td>Mid-Ohio Regional Planning Commission</td>
-<td>2025</td>
+<td>2026</td>
 <td>annually</td>
 <td>None</td>
 <td>https://www.arcgis.com/apps/dashboards/87fd6a0...</td>
@@ -9624,7 +9291,7 @@ morpc.frictionless_validate_resource | INFO | Resource is valid
 <td>TBD</td>
 <td>https://raw.githubusercontent.com/morpc-insigh...</td>
 <td>Mid-Ohio Regional Planning Commission</td>
-<td>2025</td>
+<td>2026</td>
 <td>annually</td>
 <td>None</td>
 <td>https://www.arcgis.com/apps/dashboards/87fd6a0...</td>
@@ -9653,7 +9320,7 @@ morpc.frictionless_validate_resource | INFO | Resource is valid
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [59]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [74]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">catalog</span><span class="o">.</span><span class="n">to_excel</span><span class="p">(</span><span class="s2">"catalog.xlsx"</span><span class="p">,</span> <span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>

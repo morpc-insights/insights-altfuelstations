@@ -3,12 +3,9 @@ fields:
     type: string
   - name: GEOIDFQ
     type: string
-  - name: SUMLEVEL
-    type: string
   - name: open_year
-    type: integer
+    type: number
   - name: fuel_type_code
     type: string
   - name: count
-    type: integer
-
+    type: number

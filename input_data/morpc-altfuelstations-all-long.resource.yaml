@@ -8,5 +8,5 @@ path: morpc-altfuelstations-all-long.csv
 scheme: file
 format: csv
 mediatype: text/csv
-bytes: 772125
+bytes: 838152
 schema: morpc-altfuelstations-all-long.schema.yaml

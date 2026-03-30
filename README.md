@@ -2,7 +2,7 @@
 
 ## Version
 
-Current version: 2025-02-21
+Current version: 2026-03-26
 
 ## Provider
 
@@ -26,7 +26,7 @@ The table schema is described by a [Frictionless Schema file](https://specs.fric
 
 ## Processes
 
-The output table is is produced by a [Jupyter notebook](https://jupyter.org/) (see `./altfuelstations.ipynb`).
+The output table is is produced by a [Jupyter notebook](https://jupyter.org/) (see `./insights-altfuelstations.ipynb`).
 
 The process is fully automated, but depends on outputs from several upstream processes.
 
@@ -34,15 +34,18 @@ The process is fully automated, but depends on outputs from several upstream pro
 
 The process requires the following inputs:
 
-  1. Summarized data for the alternative fuel stations, which is produced by upstream process [morpc-altfuelstations-summarize](https://github.com/morpc/morpc-altfuelstations-summarize). See `./input_data/morpc-altfuelstations-all-long.csv`.
+  1. Summarized data for the alternative fuel stations, which is produced by upstream process [morpc-altfuelstations-summarize](https://github.com/morpc/morpc-altfuelstations-summarize). See `./input_data/morpc-altfuelstations-all-long.csv` for the snapshot of the input data used to produce the current output.
   1. MORPC standard geographies lookup table, which is produced by upstream process [morpc-geos-collect](https://github.com/morpc/morpc-geos-collect)
-  1. [MORPC's member list](https://github.com/morpc/morpc-lookup/blob/main/Member_List.xlsx)
   
 Note that access to some of the upstream content is restricted to MORPC staff.
 
 ## Revision history
 
 Revisions are listed in reverse chronological order.
+
+### 2026-03-26 Adam Porr <aporr@morpc.org>
+
+Incorporate upstream data through 2025. Include charts for Central Ohio communities who are not MORPC members. Other minor improvements to code and documentation.
 
 ### 2025-02-22 Adam Porr <aporr@morpc.org>
 
